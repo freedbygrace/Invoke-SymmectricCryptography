@@ -115,16 +115,13 @@ Performs value encryption or decryption using a specified algorithm.
 
           .LINK
           https://codeandkeep.com/PowerShell-Aes-Encryption/
-	  
-          
+	   
           .LINK
           https://smsagent.blog/2022/09/23/encrypting-sensitive-data-for-transit-or-rest-with-powershell/
 	  
-
           .LINK
           https://stackoverflow.com/questions/67883498/powershell-password-encryption-decryption-with-key
 	  
-
           .LINK
           https://medium.com/@sumindaniro/encrypt-decrypt-data-with-powershell-4a1316a0834b
 	  
