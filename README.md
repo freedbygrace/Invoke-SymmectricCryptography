@@ -10,6 +10,8 @@ Performs value encryption or decryption using a specified algorithm.
           This means that the resulting encrypted data will NEVER be the same, even if the value to be encrypted is!
           
           This function is great for encrypting data that will NOT be transmitted over a network. In other words, data at rest.
+
+	  If transmitting the data over a network is required, consider breaking the encrypted data, key, and initialization vector apart.
           
           .PARAMETER Encrypt
 	        Specifies that encryption will be performed.
