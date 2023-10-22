@@ -7,14 +7,12 @@ Performs value encryption or decryption using a specified algorithm.
 
 ### Encryption (Default)
 ```
-Invoke-SymmectricCryptography [-Encrypt] -Algorithm <String> -Data <String[]> [-Export]
- [-ExportFormat <String>] [-ExportPath <FileInfo>] [-ContinueOnError] [<CommonParameters>]
+Invoke-SymmectricCryptography [-Encrypt] -Algorithm <String> -Data <String[]> [-Export] [-ExportFormat <String>] [-ExportPath <FileInfo>] [-ContinueOnError] [<CommonParameters>]
 ```
 
 ### Decryption
 ```
-Invoke-SymmectricCryptography [-Decrypt] -Algorithm <String> -EncryptedData <String> -Key <String>
- -InitializationVector <String> [-ContinueOnError] [<CommonParameters>]
+Invoke-SymmectricCryptography [-Decrypt] -Algorithm <String> -EncryptedData <String> -Key <String> -InitializationVector <String> [-ContinueOnError] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
